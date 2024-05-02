@@ -366,7 +366,7 @@ public class EmployerController {
         String to = FlightToText.getText().equals("") ? chosenFlight.getFlightTo() : FlightToText.getText();
         String dep = FlightDepText.getText().equals("") ? chosenFlight.getDepartureTime() : FlightDepText.getText();
         String arr = FlightArrText.getText().equals("") ? chosenFlight.getArrivalTime() : FlightArrText.getText();
-        String status = FlightStatusChoiceBox.getValue().isEmpty() ? chosenFlight.getStatus() : FlightStatusChoiceBox.getValue();
+        String status = FlightStatusChoiceBox.getValue().isEmpty() ? "Ожидание" : FlightStatusChoiceBox.getValue();
 
 
         chosenFlight.setNumber(number);
@@ -422,6 +422,7 @@ public class EmployerController {
 
     public void onAnalyticsChooseFlightsBoxClick(){
         String chosenflight = AnalyticsChooceBox.getValue();
+        if (chosenflight == null) return;
         if (chosenflight.equals("")) {
 
             return;
