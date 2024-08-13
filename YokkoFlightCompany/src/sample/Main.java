@@ -22,20 +22,4 @@ public class Main extends Application {
     }
 }
 
-/*
-    --module-path
-    \[Полный путь]\YokkoFlightCompany\javafx-sdk-17.0.11-WIN\lib
-    --add-modules
-    javafx.controls,javafx.fxml
- */
 
-/*
- Цвета:
- ff0074
- ff8713
- 6dccff
- 13a3ed
- 002e73
-
- e3efee
- */

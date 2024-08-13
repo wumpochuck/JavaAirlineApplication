@@ -17,7 +17,7 @@
    <children>
       <AnchorPane fx:id="FlightPane" layoutY="100.0" prefHeight="600.0" prefWidth="1200.0" visible="false">
          <children>
-            <TableView fx:id="FlightTable" cacheShape="false" centerShape="false" focusTraversable="false" layoutX="50.0" layoutY="50.0" prefHeight="500.0" prefWidth="700.0" scaleShape="false">
+            <TableView fx:id="FlightTable" cacheShape="false" centerShape="false" focusTraversable="false" layoutX="50.0" layoutY="64.0" prefHeight="500.0" prefWidth="700.0" scaleShape="false">
               <columns>
                 <TableColumn fx:id="FlightTableNumber" prefWidth="127.0" text="Номер рейса" />
                 <TableColumn fx:id="FlightTableFrom" minWidth="0.0" prefWidth="134.0" text="Откуда" />
@@ -31,67 +31,67 @@
                   <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
                </columnResizePolicy>
             </TableView>
-            <Text fill="#002e73" layoutX="50.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Данные о рейсах">
+            <Text fill="#002e73" layoutX="291.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Данные о рейсах">
                <font>
                   <Font name="System Bold" size="26.0" />
                </font>
             </Text>
-            <Text fill="#002e73" layoutX="800.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Добавить рейс">
+            <Text fill="#002e73" layoutX="828.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Добавить рейс">
                <font>
                   <Font name="System Bold" size="26.0" />
                </font>
             </Text>
-            <Text fill="#002e73" layoutX="800.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Номер">
+            <Text fill="#002e73" layoutX="828.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Номер">
                <font>
                   <Font size="25.0" />
                </font>
             </Text>
-            <TextField fx:id="FlightNumberText" layoutX="900.0" layoutY="69.0" prefHeight="33.0" prefWidth="200.0">
+            <TextField fx:id="FlightNumberText" layoutX="928.0" layoutY="104.0" prefHeight="33.0" prefWidth="200.0">
                <font>
                   <Font size="16.0" />
                </font>
             </TextField>
-            <Text fill="#002e73" layoutX="800.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Откуда">
+            <Text fill="#002e73" layoutX="828.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Откуда">
                <font>
                   <Font size="25.0" />
                </font>
             </Text>
-            <TextField fx:id="FlightFromText" layoutX="900.0" layoutY="123.0" prefHeight="33.0" prefWidth="200.0">
+            <TextField fx:id="FlightFromText" layoutX="928.0" layoutY="158.0" prefHeight="33.0" prefWidth="200.0">
                <font>
                   <Font size="16.0" />
                </font>
             </TextField>
-            <Text fill="#002e73" layoutX="800.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Куда">
+            <Text fill="#002e73" layoutX="828.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Куда">
                <font>
                   <Font size="25.0" />
                </font>
             </Text>
-            <TextField fx:id="FlightToText" layoutX="900.0" layoutY="182.0" prefHeight="33.0" prefWidth="200.0">
+            <TextField fx:id="FlightToText" layoutX="928.0" layoutY="217.0" prefHeight="33.0" prefWidth="200.0">
                <font>
                   <Font size="16.0" />
                </font>
             </TextField>
-            <Text fill="#002e73" layoutX="800.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Отпр.">
+            <Text fill="#002e73" layoutX="828.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Отпр.">
                <font>
                   <Font size="25.0" />
                </font>
             </Text>
-            <TextField fx:id="FlightDepText" layoutX="900.0" layoutY="242.0" prefHeight="33.0" prefWidth="200.0">
+            <TextField fx:id="FlightDepText" layoutX="928.0" layoutY="277.0" prefHeight="33.0" prefWidth="200.0">
                <font>
                   <Font size="16.0" />
                </font>
             </TextField>
-            <Text fill="#002e73" layoutX="800.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Приб">
+            <Text fill="#002e73" layoutX="828.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Приб">
                <font>
                   <Font size="25.0" />
                </font>
             </Text>
-            <TextField fx:id="FlightArrText" layoutX="900.0" layoutY="296.0" prefHeight="33.0" prefWidth="200.0">
+            <TextField fx:id="FlightArrText" layoutX="928.0" layoutY="331.0" prefHeight="33.0" prefWidth="200.0">
                <font>
                   <Font size="16.0" />
                </font>
             </TextField>
-            <Button fx:id="FlightAddButton" layoutX="800.0" layoutY="400.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="140.0" style="-fx-background-color: #13a3ed; -fx-background-radius: 15;" text="ДОБАВИТЬ" textFill="WHITE">
+            <Button fx:id="FlightAddButton" layoutX="828.0" layoutY="435.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="140.0" style="-fx-background-color: #13a3ed; -fx-background-radius: 15;" text="ДОБАВИТЬ" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
@@ -99,7 +99,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="FlightClearButton" layoutX="960.0" layoutY="400.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="140.0" style="-fx-background-color: #13a3ed; -fx-background-radius: 15;" text="ОЧИСТИТЬ" textFill="WHITE">
+            <Button fx:id="FlightClearButton" layoutX="988.0" layoutY="435.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="140.0" style="-fx-background-color: #13a3ed; -fx-background-radius: 15;" text="ОЧИСТИТЬ" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
@@ -107,7 +107,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="FlghtChangeButton" layoutX="800.0" layoutY="460.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="140.0" style="-fx-background-color: #13a3ed; -fx-background-radius: 15;" text="ИЗМЕНИТЬ" textFill="WHITE">
+            <Button fx:id="FlghtChangeButton" layoutX="828.0" layoutY="495.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="140.0" style="-fx-background-color: #13a3ed; -fx-background-radius: 15;" text="ИЗМЕНИТЬ" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
@@ -115,7 +115,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="FlightDeleteButton" layoutX="960.0" layoutY="460.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="140.0" style="-fx-background-color: #13a3ed; -fx-background-radius: 15;" text="УДАЛИТЬ" textFill="WHITE">
+            <Button fx:id="FlightDeleteButton" layoutX="988.0" layoutY="495.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="140.0" style="-fx-background-color: #13a3ed; -fx-background-radius: 15;" text="УДАЛИТЬ" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
@@ -123,12 +123,12 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Text fill="#002e73" layoutX="800.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Статус">
+            <Text fill="#002e73" layoutX="828.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Статус">
                <font>
                   <Font size="25.0" />
                </font>
             </Text>
-            <ChoiceBox fx:id="FlightStatusChoiceBox" layoutX="900.0" layoutY="345.0" prefHeight="33.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #dddde1;" />
+            <ChoiceBox fx:id="FlightStatusChoiceBox" layoutX="928.0" layoutY="380.0" prefHeight="33.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #dddde1;" />
          </children>
       </AnchorPane>
       <AnchorPane fx:id="TicketPane" layoutY="100.0" prefHeight="600.0" prefWidth="1200.0" visible="false">
@@ -146,17 +146,17 @@
                   <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
                </columnResizePolicy>
             </TableView>
-            <Text fill="#002e73" layoutX="50.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Данные о билетах">
+            <Text fill="#002e73" layoutX="283.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Данные о билетах">
                <font>
                   <Font name="System Bold" size="26.0" />
                </font>
             </Text>
-            <Text fill="#002e73" layoutX="800.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Фильтр по владельцу билета ">
+            <Text fill="#002e73" layoutX="790.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Фильтр по владельцу билета ">
                <font>
                   <Font name="System Bold" size="26.0" />
                </font>
             </Text>
-            <Button fx:id="TicketFindIDButton" layoutX="800.0" layoutY="138.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="160.0" style="-fx-background-color: #13a3ed; -fx-background-radius: 15;" text="ПРИМЕНИТЬ" textFill="WHITE">
+            <Button fx:id="TicketFindIDButton" layoutX="790.0" layoutY="173.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="160.0" style="-fx-background-color: #13a3ed; -fx-background-radius: 15;" text="ПРИМЕНИТЬ" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
@@ -164,12 +164,12 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Text fill="#002e73" layoutX="800.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите id:">
+            <Text fill="#002e73" layoutX="790.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите id:">
                <font>
                   <Font size="25.0" />
                </font>
             </Text>
-            <TextField fx:id="TicketIDFind" layoutX="940.0" layoutY="81.0" prefHeight="35.0" prefWidth="114.0">
+            <TextField fx:id="TicketIDFind" layoutX="930.0" layoutY="107.0" prefHeight="35.0" prefWidth="114.0">
                <font>
                   <Font size="16.0" />
                </font>
@@ -178,17 +178,17 @@
       </AnchorPane>
       <AnchorPane fx:id="AnalyticsPane" layoutY="100.0" prefHeight="600.0" prefWidth="1200.0">
          <children>
-            <Text fill="#002e73" layoutX="50.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Аналитика Продаж">
+            <Text fill="#002e73" layoutX="44.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Аналитика Продаж">
                <font>
                   <Font name="System Bold" size="26.0" />
                </font>
             </Text>
-            <Text fill="#002e73" layoutX="50.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите рейс">
+            <Text fill="#002e73" layoutX="44.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите рейс">
                <font>
                   <Font size="25.0" />
                </font>
             </Text>
-            <ChoiceBox fx:id="AnalyticsChooceBox" layoutX="50.0" layoutY="121.0" prefHeight="33.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #dddde1;" />
+            <ChoiceBox fx:id="AnalyticsChooceBox" layoutX="44.0" layoutY="159.0" prefHeight="33.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #dddde1;" />
             <PieChart fx:id="AnalyticsPie" layoutX="350.0" layoutY="50.0" prefHeight="500.0" prefWidth="800.0" />
          </children>
       </AnchorPane>

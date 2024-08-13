@@ -29,7 +29,7 @@
             </Button>
          </children>
       </AnchorPane>
-      <TableView fx:id="userTable" layoutX="25.0" layoutY="125.0" prefHeight="550.0" prefWidth="600.0" style="-fx-background-color: #ffffff;">
+      <TableView fx:id="userTable" layoutX="25.0" layoutY="125.0" prefHeight="550.0" prefWidth="697.0" style="-fx-background-color: #ffffff;">
         <columns>
           <TableColumn fx:id="userColumnID" prefWidth="36.0" text="ID" />
           <TableColumn fx:id="userColumnLogin" prefWidth="86.0" text="Логин" />
@@ -43,52 +43,52 @@
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
          </columnResizePolicy>
       </TableView>
-      <TextField fx:id="textFieldLogin" layoutX="750.0" layoutY="125.0" prefHeight="35.0" prefWidth="150.0">
+      <TextField fx:id="textFieldLogin" layoutX="901.0" layoutY="188.0" prefHeight="35.0" prefWidth="244.0">
          <font>
             <Font size="16.0" />
          </font>
       </TextField>
-      <Text fill="#002e73" layoutX="650.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Логин" textAlignment="RIGHT">
+      <Text fill="#002e73" layoutX="801.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Логин" textAlignment="RIGHT">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Text>
-      <TextField fx:id="textFieldPassword" layoutX="750.0" layoutY="175.0" prefHeight="35.0" prefWidth="150.0">
+      <TextField fx:id="textFieldPassword" layoutX="901.0" layoutY="238.0" prefHeight="35.0" prefWidth="244.0">
          <font>
             <Font size="16.0" />
          </font>
       </TextField>
-      <Text fill="#002e73" layoutX="650.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль" textAlignment="RIGHT">
+      <Text fill="#002e73" layoutX="801.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль" textAlignment="RIGHT">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Text>
-      <TextField fx:id="textFieldName" layoutX="750.0" layoutY="225.0" prefHeight="35.0" prefWidth="150.0">
+      <TextField fx:id="textFieldName" layoutX="901.0" layoutY="288.0" prefHeight="35.0" prefWidth="244.0">
          <font>
             <Font size="16.0" />
          </font>
       </TextField>
-      <Text fill="#002e73" layoutX="650.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя" textAlignment="RIGHT">
+      <Text fill="#002e73" layoutX="801.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя" textAlignment="RIGHT">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Text>
-      <TextField fx:id="textFieldSurname" layoutX="750.0" layoutY="275.0" prefHeight="35.0" prefWidth="150.0">
+      <TextField fx:id="textFieldSurname" layoutX="901.0" layoutY="338.0" prefHeight="35.0" prefWidth="244.0">
          <font>
             <Font size="16.0" />
          </font>
       </TextField>
-      <Text fill="#002e73" layoutX="650.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Фамилия" textAlignment="RIGHT">
+      <Text fill="#002e73" layoutX="801.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Фамилия" textAlignment="RIGHT">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Text>
-      <Text fill="#002e73" layoutX="650.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Роль" textAlignment="RIGHT">
+      <Text fill="#002e73" layoutX="801.0" layoutY="463.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Роль" textAlignment="RIGHT">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Text>
-      <Button fx:id="addDataButton" layoutX="650.0" layoutY="415.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="120.0" style="-fx-background-color: #002e73; -fx-background-radius: 15;" text="Добавить" textFill="WHITE">
+      <Button fx:id="addDataButton" layoutX="801.0" layoutY="496.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="177.0" style="-fx-background-color: #002e73; -fx-background-radius: 15;" text="Добавить" textFill="WHITE">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
@@ -96,7 +96,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="editDataButton" layoutX="650.0" layoutY="465.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="250.0" style="-fx-background-color: #002e73; -fx-background-radius: 15;" text="Изменить выбранное" textFill="WHITE">
+      <Button fx:id="editDataButton" layoutX="801.0" layoutY="546.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="348.0" style="-fx-background-color: #002e73; -fx-background-radius: 15;" text="Изменить выбранное" textFill="WHITE">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
@@ -104,7 +104,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="deleteDataButton" layoutX="650.0" layoutY="515.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="250.0" style="-fx-background-color: #002e73; -fx-background-radius: 15;" text="Удалить выбранное" textFill="WHITE">
+      <Button fx:id="deleteDataButton" layoutX="801.0" layoutY="596.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="348.0" style="-fx-background-color: #002e73; -fx-background-radius: 15;" text="Удалить выбранное" textFill="WHITE">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
@@ -112,8 +112,8 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <ChoiceBox fx:id="textChoiceBoxRole" layoutX="750.0" layoutY="375.0" prefHeight="35.0" prefWidth="150.0" />
-      <Button fx:id="clearDataButton" layoutX="780.0" layoutY="415.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="120.0" style="-fx-background-color: #002e73; -fx-background-radius: 15;" text="Очистить" textFill="WHITE">
+      <ChoiceBox fx:id="textChoiceBoxRole" layoutX="901.0" layoutY="438.0" prefHeight="35.0" prefWidth="244.0" />
+      <Button fx:id="clearDataButton" layoutX="982.0" layoutY="496.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="161.0" style="-fx-background-color: #002e73; -fx-background-radius: 15;" text="Очистить" textFill="WHITE">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
@@ -121,12 +121,12 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <TextField fx:id="textFieldMoney" layoutX="750.0" layoutY="325.0" prefHeight="35.0" prefWidth="150.0">
+      <TextField fx:id="textFieldMoney" layoutX="901.0" layoutY="388.0" prefHeight="35.0" prefWidth="244.0">
          <font>
             <Font size="16.0" />
          </font>
       </TextField>
-      <Text fill="#002e73" layoutX="650.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Кошелек" textAlignment="RIGHT">
+      <Text fill="#002e73" layoutX="801.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Кошелек" textAlignment="RIGHT">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>

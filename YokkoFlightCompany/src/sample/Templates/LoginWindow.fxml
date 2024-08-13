@@ -10,31 +10,31 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #002e73;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.LoginWindowController">
    <children>
-      <AnchorPane fx:id="RegistrationPane" layoutX="375.0" layoutY="275.0" maxHeight="300.0" maxWidth="450.0" prefHeight="200.0" prefWidth="450.0" style="-fx-background-color: #6dccff; -fx-background-radius: 15;" visible="false">
+      <AnchorPane fx:id="RegistrationPane" layoutX="338.0" layoutY="216.0" maxHeight="300.0" maxWidth="524.0" prefHeight="269.0" prefWidth="524.0" style="-fx-background-color: #6dccff; -fx-background-radius: 15;">
          <children>
-            <Text fill="#002e73" layoutX="30.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Логин">
+            <Text fill="#002e73" layoutX="67.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Логин">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
             </Text>
-            <TextField fx:id="loginField2" layoutX="170.0" layoutY="25.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-radius: 15;">
+            <TextField fx:id="loginField2" layoutX="207.0" layoutY="51.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-radius: 15;">
                <font>
                   <Font size="15.0" />
                </font>
             </TextField>
-            <Text fill="#002e73" layoutX="30.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль">
+            <Text fill="#002e73" layoutX="67.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
             </Text>
-            <PasswordField fx:id="passwordField2" layoutX="170.0" layoutY="60.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-radius: 15;" />
-            <Text fill="#002e73" layoutX="30.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Повтор пар.">
+            <PasswordField fx:id="passwordField2" layoutX="207.0" layoutY="86.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-radius: 15;" />
+            <Text fill="#002e73" layoutX="67.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Повтор пар.">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
             </Text>
-            <PasswordField fx:id="passwordField3" layoutX="170.0" layoutY="95.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-radius: 15;" />
-            <Button fx:id="backButton" layoutX="20.0" layoutY="150.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #13a3ed; -fx-background-radius: 15;" text="Назад" textFill="#dddde1">
+            <PasswordField fx:id="passwordField3" layoutX="207.0" layoutY="121.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-radius: 15;" />
+            <Button fx:id="backButton" layoutX="57.0" layoutY="176.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #13a3ed; -fx-background-radius: 15;" text="Назад" textFill="#dddde1">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
@@ -42,7 +42,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="registerButton" layoutX="170.0" layoutY="150.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #ff0074; -fx-background-radius: 15;" text="Регистрация" textFill="#dddde1">
+            <Button fx:id="registerButton" layoutX="207.0" layoutY="176.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #ff0074; -fx-background-radius: 15;" text="Регистрация" textFill="#dddde1">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
@@ -52,25 +52,25 @@
             </Button>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="LoginPane" layoutX="375.0" layoutY="275.0" maxHeight="300.0" maxWidth="450.0" prefHeight="200.0" prefWidth="450.0" style="-fx-background-color: #6dccff; -fx-background-radius: 20;">
+      <AnchorPane fx:id="LoginPane" layoutX="338.0" layoutY="216.0" maxHeight="300.0" maxWidth="524.0" prefHeight="269.0" prefWidth="524.0" style="-fx-background-color: #6dccff; -fx-background-radius: 20;" visible="false">
          <children>
-            <Text fill="#002e73" layoutX="30.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Логин">
+            <Text fill="#002e73" layoutX="62.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Логин">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
             </Text>
-            <TextField fx:id="loginField1" layoutX="170.0" layoutY="25.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-radius: 15;">
+            <TextField fx:id="loginField1" layoutX="202.0" layoutY="65.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-radius: 15;">
                <font>
                   <Font size="15.0" />
                </font>
             </TextField>
-            <Text fill="#002e73" layoutX="30.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль">
+            <Text fill="#002e73" layoutX="62.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
             </Text>
-            <PasswordField fx:id="passwordField1" layoutX="170.0" layoutY="60.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-radius: 15;" />
-            <Button fx:id="loginButton" layoutX="20.0" layoutY="150.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #ff0074; -fx-background-radius: 15;" text="Вход" textFill="#dddde1">
+            <PasswordField fx:id="passwordField1" layoutX="202.0" layoutY="100.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-radius: 15;" />
+            <Button fx:id="loginButton" layoutX="57.0" layoutY="162.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #ff0074; -fx-background-radius: 15;" text="Вход" textFill="#dddde1">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
@@ -78,7 +78,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="switchRegistrationButton" layoutX="170.0" layoutY="150.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #13a3ed; -fx-background-radius: 15;" text="Регистрация" textFill="#dddde1">
+            <Button fx:id="switchRegistrationButton" layoutX="207.0" layoutY="162.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #13a3ed; -fx-background-radius: 15;" text="Регистрация" textFill="#dddde1">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
